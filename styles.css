@@ -2,6 +2,7 @@ body {
     margin: 0;
     line-height: normal;
   }
+ 
 .group-child,
 .website-view-child {
   position: absolute;
@@ -984,3 +985,59 @@ body {
   color: #0b0223;
   font-family: "Work Sans";
 }
+/* Base CSS code Ends */
+/* Base CSS code */
+
+/* Responsive code for default desktop */
+@media screen and (max-width: 1366px) {
+    .group-child,
+    .website-view-child {
+      position: static;
+      top: auto;
+      left: auto;
+      width: 100%;
+      height: auto;
+    }
+  
+    .group-child {
+      top: 0;
+      background-color: #fff;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      width: 100%;
+      height: 130px;
+    }
+  
+    .gamer-parent,
+    .group-inner,
+    .group-container,
+    .rectangle-parent,
+    .pngwing-1-icon,
+    .pngwing-2-icon,
+    .pngwing-3-icon,
+    .pngwing-4-icon,
+    .pngwing-5-icon {
+      position: static;
+      top: auto;
+      left: auto;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Responsive code for mobile (large) */
+  @media screen and (max-width: 767px) {
+    .group-child,
+    .website-view-child,
+    .group-parent,
+    .pngwing-3-parent,
+    .pngwing-5-parent,
+    .features-parent,
+    .rectangle-parent,
+    .pngwing-4-icon {
+      position: static;
+      top: auto;
+      left: auto;
+      width: 100%;
+      height: auto;
+    }
+  }
